@@ -4,7 +4,7 @@
 
 Meet my **LIFX LAN SDK**. This project aims at enabling Java developers to implement use the [LIFX LAN Protocol](https://lan.developer.lifx.com/docs/) to control LIFX devices.
 
-##Methodology
+## Methodology
 I've run into limitations with existing available Java LIFX LAN SDK's. So, the reasonable thing to do, was to write my own in a week.
 
 Here we are 😊
@@ -23,7 +23,7 @@ Did you know LIFX bulbs are called **Lights** and strips are called **MultiZone*
 
 I'm really proud of my work here. It's the most ambitious Java project I've ever done, and I hope it serves useful for those looking for an SDK to do this.
 
-##Reliability
+## Reliability
 This SDK implements a carefully designed UDP packet reliability system. LIFX Packets are all sent over UDP, and as such, things get lost from time to time. This can be annoying, especially when lights don't change.
 
 When sending LIFX commands to devices, most API calls include an option to listen for a response. For requests that wait to receive data, this option is not available.
@@ -39,5 +39,5 @@ These strategies are much smarter than implementing a hard delay of ``xxx`` hund
 
 No other Java SDK implements this type of system. As a result, my SDK is **FAST**.
 
-##Implementation & Documentation
+## Implementation & Documentation
 Coming soon to a Maven repository near you!
