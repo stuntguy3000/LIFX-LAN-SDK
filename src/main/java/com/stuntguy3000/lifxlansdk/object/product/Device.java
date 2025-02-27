@@ -95,19 +95,51 @@ public class Device implements StateSavable {
         switch (stateVersion.getProduct()) {
             case 70:
             case 71:
-            case 89: {
+            case 89:
+			case 115:
+			case 116: {
                 type = DeviceType.RELAY;
                 break;
             }
             case 31:
             case 32:
-            case 38: {
+            case 38:
+			case 118:
+			case 119: 
+			case 120:
+			case 141:
+			case 142:
+			case 143:
+			case 144:
+			case 161:
+			case 162:
+			case 203:
+			case 204:
+			case 205:
+			case 206:
+			case 213:
+			case 214: {
                 type = DeviceType.MULTIZONE;
                 break;
             }
             case 55:
             case 57:
-            case 68: {
+            case 68:
+			case 137:
+			case 138:
+			case 171:
+			case 173:
+			case 174:
+			case 176:
+			case 177:
+			case 185:
+			case 186:
+			case 201:
+			case 202:
+			case 215:
+			case 216:
+			case 217:
+			case 218: {
                 type = DeviceType.MATRIX;
                 break;
             }
