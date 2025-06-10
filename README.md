@@ -2,7 +2,7 @@
 
 ----------------
 
-Meet my **LIFX LAN SDK**. This project aims at enabling Java developers to implement use the [LIFX LAN Protocol](https://lan.developer.lifx.com/docs/) to control LIFX devices.
+Meet my **LIFX LAN SDK**. This project aims at enabling Java developers to implement use the [LIFX LAN Protocol](https://lan.developer.lifx.com/docs/) to control LIFX devices. This SDK should still be functional in ~mid 2025.
 
 ## Methodology
 I've run into limitations with existing available Java LIFX LAN SDK's. So, the reasonable thing to do, was to write my own in a week.
